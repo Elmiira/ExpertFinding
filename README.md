@@ -9,7 +9,7 @@ For more information  about this project checkout :<br>
 [SystemIntroductin.ppt](https://github.com/Elmiira/ExpertFinding/blob/master/SystemIntroduction.pptx)<br><br>
 
 
-<br>Currently, as an initial step, we've implemented <b> Expert Findig project' first phase </b> which is documented in [DataCollectionDescription.pdf](https://github.com/Elmiira/ExpertFinding/blob/master/DataCollectionDescription.pdf) folder
+<br>Currently, as an initial step, we've implemented <b> Expert Findig project' first phase </b> which is documented in [DataCollectionDescription.pdf](https://github.com/Elmiira/ExpertFinding/blob/master/DataCollectionDescription.pdf) file
  and source codes are avaialable in [dataset](https://github.com/Elmiira/ExpertFinding/tree/master/dataset) folder.
 
 
