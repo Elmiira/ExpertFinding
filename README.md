@@ -6,10 +6,10 @@ This is a placeholder for the project on:
 2- "How Expetise can be inferred from these 2 sources?
 
 For more information  about this project checkout :<br>
-https://github.com/Elmiira/ExpertFinding/blob/master/SystemIntroduction.pptx<br><br>
-<b>In first step, we've implemented Expert Findig project' first phase which is documentd:</b><br>
-https://github.com/Elmiira/ExpertFinding/blob/master/DataCollectionDescription.pdf<br><br>
- and source codes are avaialable:
- https://github.com/Elmiira/ExpertFinding/tree/master/dataset<br><br>
+[SystemIntroductin.ppt](https://github.com/Elmiira/ExpertFinding/blob/master/SystemIntroduction.pptx)<br><br>
+
+
+<br>Currently, as an initial step, we've implemented <b> Expert Findig project' first phase </b> which is documented in [DataCollectionDescription.pdf](https://github.com/Elmiira/ExpertFinding/blob/master/DataCollectionDescription.pdf) folder
+ and source codes are avaialable in [dataset](https://github.com/Elmiira/ExpertFinding/tree/master/dataset) folder.
 
 
