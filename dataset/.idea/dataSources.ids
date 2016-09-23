@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - stackexchange@localhost" uuid="66950453-31ad-44a7-95ef-e7ba6a1a34b2">
+    <database-info product="MySQL" version="5.5.21" jdbc-version="3.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.5 ( Revision: ${svn.Revision} )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="stackexchange">
+        <visible>1</visible>
+      </schema>
+      <schema id="2" name="information_schema"/>
+      <schema id="3" name="mysql"/>
+      <schema id="4" name="performance_schema"/>
+      <schema id="5" name="test"/>
+      <schema id="6" name="test22"/>
+      <table id="7" parent="1" name="posts"/>
+      <table id="8" parent="1" name="users"/>
+      <table id="9" parent="1" name="userspostsjoin"/>
+      <table id="10" parent="1" name="usersprofile"/>
+      <column id="11" parent="7" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="12" parent="7" name="PostId">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="13" parent="7" name="siteName">
+        <data-type>varchar(70)|0</data-type>
+      </column>
+      <column id="14" parent="7" name="PostTypeId">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="15" parent="7" name="CreationDate">
+        <data-type>date|0</data-type>
+      </column>
+      <column id="16" parent="7" name="Score">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="17" parent="7" name="ViewCount">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="18" parent="7" name="OwnerUserId">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="19" parent="7" name="Tags">
+        <data-type>varchar(250)|0</data-type>
+      </column>
+      <column id="20" parent="7" name="AnswerCount">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="21" parent="7" name="CommentCount">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="22" parent="7" name="FavoriteCount">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <key id="23" parent="7" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="24" parent="8" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="25" parent="8" name="UserId">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="26" parent="8" name="siteName">
+        <data-type>varchar(70)|0</data-type>
+      </column>
+      <column id="27" parent="8" name="Reputation">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="28" parent="8" name="CreationDate">
+        <data-type>date|0</data-type>
+      </column>
+      <column id="29" parent="8" name="DisplayName">
+        <data-type>varchar(40)|0</data-type>
+      </column>
+      <column id="30" parent="8" name="LastAccessDate">
+        <data-type>date|0</data-type>
+      </column>
+      <column id="31" parent="8" name="WebsiteUrl">
+        <data-type>varchar(200)|0</data-type>
+      </column>
+      <column id="32" parent="8" name="Location">
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="33" parent="8" name="Views">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="34" parent="8" name="UpVotes">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="35" parent="8" name="DownVotes">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="36" parent="8" name="EmailHash">
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="37" parent="8" name="Age">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="38" parent="8" name="AccountId">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <key id="39" parent="8" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="40" parent="9" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="41" parent="9" name="UserId">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="42" parent="9" name="siteName">
+        <data-type>varchar(70)|0</data-type>
+      </column>
+      <column id="43" parent="9" name="PostTypeId">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="44" parent="9" name="PostScore">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="45" parent="9" name="PostViewCount">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="46" parent="9" name="PostTags">
+        <data-type>varchar(250)|0</data-type>
+      </column>
+      <column id="47" parent="9" name="PostAnswerCount">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="48" parent="9" name="PostCommentCount">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="49" parent="9" name="PostFavoriteCount">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="50" parent="9" name="PostOwnerUserId">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="51" parent="9" name="UserReputation">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="52" parent="9" name="UserViews">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="53" parent="9" name="UserUpVotes">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="54" parent="9" name="UserDownVotes">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="55" parent="9" name="PostCreationDate">
+        <data-type>date|0</data-type>
+      </column>
+      <column id="56" parent="9" name="UserCreationDate">
+        <data-type>date|0</data-type>
+      </column>
+      <column id="57" parent="9" name="UserDisplayName">
+        <data-type>varchar(40)|0</data-type>
+      </column>
+      <column id="58" parent="9" name="UserLastAccessDate">
+        <data-type>date|0</data-type>
+      </column>
+      <column id="59" parent="9" name="UserWebsiteUrl">
+        <data-type>varchar(200)|0</data-type>
+      </column>
+      <column id="60" parent="9" name="UserLocation">
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="61" parent="9" name="UserEmailHash">
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="62" parent="9" name="UserAge">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="63" parent="9" name="UserAccountId">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <key id="64" parent="9" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="65" parent="10" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="66" parent="10" name="tag">
+        <data-type>text|0</data-type>
+      </column>
+      <column id="67" parent="10" name="userAccountId">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="68" parent="10" name="UserReputation">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="69" parent="10" name="UserAge">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="70" parent="10" name="UserVots">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="71" parent="10" name="postRate">
+        <data-type>double|0</data-type>
+      </column>
+      <column id="72" parent="10" name="userAnswers">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="73" parent="10" name="userQuestions">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="74" parent="10" name="questionRate">
+        <data-type>double|0</data-type>
+      </column>
+      <column id="75" parent="10" name="answerRate">
+        <data-type>double|0</data-type>
+      </column>
+      <column id="76" parent="10" name="normalizedEntropyMeasure">
+        <data-type>double|0</data-type>
+      </column>
+      <column id="77" parent="10" name="normalizedTopicEntropy">
+        <data-type>double|0</data-type>
+      </column>
+      <column id="78" parent="10" name="topicalReputation">
+        <data-type>double|0</data-type>
+      </column>
+      <column id="79" parent="10" name="UserCreationDate">
+        <data-type>date|0</data-type>
+      </column>
+      <column id="80" parent="10" name="UserLastAccessDate">
+        <data-type>date|0</data-type>
+      </column>
+      <column id="81" parent="10" name="UserDisplayName">
+        <data-type>varchar(40)|0</data-type>
+      </column>
+      <column id="82" parent="10" name="UserWebsiteUrl">
+        <data-type>varchar(200)|0</data-type>
+      </column>
+      <column id="83" parent="10" name="UserLocation">
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="84" parent="10" name="UserEmailHash">
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <key id="85" parent="10" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>
