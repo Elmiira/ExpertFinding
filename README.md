@@ -10,6 +10,6 @@ For more information  about this project checkout :<br>
 
 
 <br>Currently, as an initial step, we've implemented <b> Expert Findig project' first phase </b> which is documented in [DataCollectionDescription.pdf](https://github.com/Elmiira/ExpertFinding/blob/master/DataCollectionDescription.pdf) file
- and source codes are avaialable in [dataset](https://github.com/Elmiira/ExpertFinding/tree/master/dataset) folder.
+ and source codes are available in [dataset](https://github.com/Elmiira/ExpertFinding/tree/master/dataset) folder.
 
 
